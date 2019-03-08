@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>我要寄件</title>
+    <meta name="viewport" content="width=device-width ,initial-scale=1.0"/>
+    <!-- 引入boot的文件，引入顺序有要求-->
+    <link rel="stylesheet" href="../css/bootstrap.css"/>
+    <script src="../js/jquery.min.js"></script>
+    <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="../css/mail.css"/>
+
+</head>
+<body>
+    <header>
+        <div class="top">
+            <a href="javascript:;">
+                <img src="../img/index/sf.png"/>
+            </a>
+        </div>
+        <ul id="Hnav">
+            <li>
+                <a href="index2.html" target="_self">首页</a>
+                <div id="Hindex"></div>
+            </li>
+
+            <li>
+                <a href="mail.html">物流</a>
+                <div id="Hmail">
+                    <div>
+                        <div class="Hexpress">
+                            <p class="f16">快递服务</p>
+                            <ul>
+                                <li><p>同城</p></li>
+                                <li><a>同城急送</a></li>
+                            </ul>
+                            <ul>
+                                <li><p>内地及港澳台</p></li>
+                                <li><a href="javascript:;">顺丰即日</a></li>
+                                <li><a href="javascript:;">顺丰次晨</a></li>
+                                <li><a href="javascript:;">顺丰标快</a></li>
+                                <li><a href="javascript:;">顺丰特惠</a></li>
+                                <li><a href="javascript:;">物流普运</a></li>
+                                <li><a href="javascript:;">重货快运</a></li>
+                                <li><a href="javascript:;">重货专运</a></li>
+                                <li><a href="javascript:;">重货包裹</a></li>
+                                <li><a href="javascript:;">小票零担</a></li>
+                            </ul>
+                            <ul>
+                                <li><p>国际</p></li>
+                                <li><a href="javascript:;">国际标快</a></li>
+                                <li><a href="javascript:;">国际特惠</a></li>
+                                <li><a href="javascript:;">国际小包</a></li>
+                                <li><a href="javascript:;">国际重货</a></li>
+                                <li><a href="javascript:;">国际电商专递</a></li>
+                                <li><a href="javascript:;">海购丰运</a></li>
+                                <li><a href="javascript:;">签收确认服务</a></li>
+                                <li><a href="javascript:;">海外仓</a></li>
+                                <li><a href="javascript:;">前往国际网站</a></li>
+                            </ul>
+                            <ul>
+                                <li><p>增值服务</p></li>
+                                <li><a href="javascript:;">普通保价</a></li>
+                                <li><a href="javascript:;">特安服务</a></li>
+                                <li><a href="javascript:;">代收货款</a></li>
+                                <li><a href="javascript:;">签单返回</a></li>
+                                <li><a href="javascript:;">包装服务</a></li>
+                                <li><a href="javascript:;">委托收件</a></li>
+                                <li><a href="javascript:;">逆向物流</a></li>
+                                <li><a href="javascript:;">特殊入仓</a></li>
+                                <li><a href="javascript:;">送货上楼</a></li>
+                            </ul>
+                            <ul>
+                                <li><p> </p></li>
+                                <li><a href="javascript:;">正式报关</a></li>
+                                <li><a href="javascript:;">电子验收</a></li>
+                                <li><a href="javascript:;">原单退回</a></li>
+                                <li><a href="javascript:;">定时派送</a></li>
+                                <li><a href="javascript:;">垫付货款</a></li>
+                                <li><a href="javascript:;">保单配送</a></li>
+                            </ul>
+                            <ul>
+                                <li><p></p></li>
+                                <li><a href="javascript:;">超长超重附加费</a></li>
+                                <li><a href="javascript:;">节假日服务</a></li>
+                                <li><a href="javascript:;">住宅附加费</a></li>
+                                <li><a href="javascript:;">燃油附加费</a></li>
+                                <li><a href="javascript:;">派件地址变更</a></li>
+                                <li><a href="javascript:;">更改付款方式</a></li>
+                                <li><a href="javascript:;">顺丰国际直邮认证服务</a></li>
+                                <li><a href="javascript:;">货物保管附加费</a></li>
+                            </ul>
+                        
+                        </div>
+                        <div class="Hcold">
+                            <p class="f16">冷运服务</p>
+                            <ul>
+                                <li><p>食品服务</p></li>
+                                <li><a href="javascript:;">生鲜速配</a></li>
+                                <li><a href="javascript:;">大闸蟹专递</a></li>
+                                <li><a href="javascript:;">冷运到家</a></li>
+                                <li><a href="javascript:;">冷运到店</a></li>
+                                <li><a href="javascript:;">顺丰冷运零担</a></li>
+                                <li><a href="javascript:;">冷运专车</a></li>
+                                <li><a href="javascript:;">冷运仓储</a></li>
+                            </ul>
+                            <ul>
+                                <li><p>医药服务</p></li>
+                                <li><a href="javascript:;">医药安心递</a></li>
+                                <li><a href="javascript:;">医药专递</a></li>
+                                <li><a href="javascript:;">医药商配</a></li>
+                                <li><a href="javascript:;">顺丰医药零担</a></li>
+                                <li><a href="javascript:;">医药专车</a></li>
+                                <li><a href="javascript:;">医药仓储</a></li>
+                            </ul>
+                        </div>
+                        <div class="Hstorage">
+                            <p class="f16">仓储服务</p>
+                            <ul>
+                                <li><p>仓储服务</p></li>
+                                <li><a href="javascript:;">标准化仓储管理</a></li>
+                                <li><a href="javascript:;">仓储核心能力</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <ul>
+                        <li><a href="javascript:;" class="cfff">我要寄件</a></li>  
+                        <li><a href="javascript:;">收集范围查询</a></li>  
+                        <li><a href="javascript:;">收寄标准查询</a></li>  
+                        <li><a href="javascript:;">运费时效查询</a></li>  
+                        <li><a href="javascript:;">其他寄件方式</a></li>  
+                        <li><a href="javascript:;" class="cfff">合作咨询</a></li>   
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="javascript:;">金融</a>
+                <div id="Hmoney"></div>
+            </li>
+            <li>
+                <a href="javascript:;">商业</a>
+                <div id="Hbusiness">
+                    <p><a href="javascript:;">顺丰优选网上商城</a></p>
+                    <p><a href="javascript:;">顺丰优选门店</a></p>
+                </div>
+            </li>
+            <li>
+                <a href="success.html">成功案例</a>
+                <div id="Hsuccess">
+                    <ul class="mAuto">
+                        <li><a href="javascript:;">3C电子行业</a></li>
+                        <li><a href="javascript:;">医疗行业</a></li>
+                        <li><a href="shengx.html">生鲜行业</a></li>
+                        <li><a href="javascript:;">快消行业</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="javascript:;">服务支持</a>
+                <div id="Hserve">
+                    <ul>
+                        <li><a href="javascript:;">我要寄件</a></li>
+                        <li><a href="javascript:;">运单追踪</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="javascript:;">运费时效查询</a></li>
+                        <li><a href="javascript:;">收集范围查询</a></li>
+                        <li><a href="javascript:;">服务网点查询</a></li>
+                        <li><a href="javascript:;">收寄标准查询</a></li>
+                        <li><a href="javascript:;">更多内容查询</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="javascript:;">顺丰控股投资者关系</a>
+                <div id="Hinvest">
+                    <ul class="mAuto">
+                        <li><a href="javascript:;">公司治理</a></li>
+                        <li><a href="javascript:;">公司公告</a></li>
+                        <li><a href="javascript:;">定期报告</a></li>
+                        <li><a href="javascript:;">投资者联络</a></li>
+                        <li><a href="javascript:;">投资者关系日历</a></li>
+                    </ul>
+                    
+                </div>
+            </li>
+            <li>
+                <a href="javascript:;">关于我们</a>
+                <div id="Hus">
+                    <ul class="mAuto">
+                        <li><a href="javascript:;">关于顺丰</a></li>
+                        <li><a href="javascript:;">新闻资讯</a></li>
+                        <li><a href="javascript:;">服务公告</a></li>
+                        <li><a href="javascript:;">促销活动</a></li>
+                        <li><a href="javascript:;">会员权益</a></li>
+                        <li><a href="javascript:;">人才招聘</a></li>
+                        <li><a href="javascript:;">集团采购</a></li>
+                    </ul>
+                    
+                </div>
+            </li>
+        </ul>
+        <div class="login" id="Hlogin">
+            
+        </div>
+        <a href="javascript:;">
+            <div class="country"></div>
+        </a>
+    </header>
+    <div class="content c999">
+        <div class="content-nav">
+            <ul>
+                <li><a href="javascript:;" class="c999 f14 hover" data-options="option" data-target="#mai1">我要寄件</a></li>
+                <li><a href="javascript:;" class="c999 f14" data-options="option" data-target="#mai2">运单追踪</a></li>
+                <li><a href="javascript:;" class="c999 f14" data-options="option" data-target="#mai3">顺丰支持</a></li>
+            </ul>
+        </div>
+        <div class="ema" data-items="item"id="mai1">
+            <div class="mail">
+                <div>
+                    <div class="mail-nav">
+                        <a href="javascript:;" class="float-left mail-nav-1 f22 c333 active">寄快递</a>
+                        <a href="javascript:;" class="float-left mail-nav-2 f22 c333">寄大件</a>
+                        <a href="javascript:;" class="float-left mail-nav-3 f22 c333">二维码寄件</a>
+                    </div>
+                    <div class="mail-send">
+                        <div class="pb-5">
+                            <div class="row">
+                                <div class="col-6">
+                                    <span class="f21 c333">寄件人信息</span>
+                                    <small>标*为必填项</small>
+                                </div>
+                                <div class="col-3 c333 f14 mail-sender-1">
+                                    <a href="javascript:;">使用地址薄</a>
+                                </div>
+                                <div class="col-3 c333 f14 mail-sender-1">
+                                    <a href="javascript:;">智能地址填写</a>
+                                </div>
+                            </div>
+                            <div class="row pt-4">
+                                <div class="col-5">
+                                    <div class="f12 mail-sender-name">姓名：</div>
+                                    <input type="text" placeholder="请填写联系人姓名" class="w-100 f13 mail-sender-input"/>
+                                </div>
+                                <div class="col-5 offset-2">
+                                    <div class="f12">寄件公司：</div>
+                                    <input type="text" placeholder="请填写公司名称" class="w-100 f13 mail-sender-input"/>
+                                </div>
+                            </div>
+                            <div class="row pt-4">
+                                <div class="col-5">
+                                    <div class="f12">手机：</div>
+                                    <input type="text" placeholder="请填写手机号码" class="w-100 f13 mail-sender-input"/>
+                                </div>
+                                <div class="col-5 offset-2">
+                                    <div class="f12">固话：</div>
+                                    <input type="text" placeholder="请填写固话号码" class="w-100 f13 mail-sender-input"/>
+                                </div>
+                            </div>
+                            <div class="row pt-4">
+                                <div class="col-8">
+                                    <div class="f12 mail-sender-name">上门地址：</div>
+                                    <input type="text" placeholder="请选择所在地区，例如：广东省－深圳市－福田区"
+                                           class="w-100 f13 mail-sender-input"/>
+                                </div>
+                            </div>
+                            <div class="row pt-4">
+                                <div class="col-10">
+                                    <div class="f12 mail-sender-name">详细地址：</div>
+                                    <input type="text" placeholder=" 请填写所在街道以及详细地址"
+                                           class="w-100 f13 mail-sender-input"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pb-5">
+                            <div class="row">
+                                <div class="col-6">
+                                    <span class="f21 c333">收件人信息</span>
+                                    <small>标*为必填项</small>
+                                </div>
+                                <div class="col-3 c333 f14 mail-sender-1">
+                                    <a href="javascript:;">使用地址薄</a>
+                                </div>
+                                <div class="col-3 c333 f14 mail-sender-1">
+                                    <a href="javascript:;">智能地址填写</a>
+                                </div>
+                            </div>
+                            <div class="row pt-4">
+                                <div class="col-5">
+                                    <div class="f12 mail-sender-name">姓名：</div>
+                                    <input type="text" placeholder="请填写联系人姓名" class="w-100 f13 mail-sender-input"/>
+                                </div>
+                                <div class="col-5 offset-2">
+                                    <div class="f12">收件公司：</div>
+                                    <input type="text" placeholder="请填写公司名称" class="w-100 f13 mail-sender-input"/>
+                                </div>
+                            </div>
+                            <div class="row pt-4">
+                                <div class="col-5">
+                                    <div class="f12 mail-sender-name">手机：</div>
+                                    <input type="text" placeholder="请填写手机号码" class="w-100 f13 mail-sender-input"/>
+                                </div>
+                                <div class="col-5 offset-2">
+                                    <div class="f12">固话：</div>
+                                    <input type="text" placeholder="请填写固话号码" class="w-100 f13 mail-sender-input"/>
+                                </div>
+                            </div>
+                            <div class="row pt-4">
+                                <div class="col-8">
+                                    <div class="f12 mail-sender-name">上门地址：</div>
+                                    <input type="text" placeholder="请选择所在地区，例如：广东省－深圳市－福田区"
+                                           class="w-100 f13 mail-sender-input"/>
+                                </div>
+                            </div>
+                            <div class="row pt-4">
+                                <div class="col-10">
+                                    <div class="f12 mail-sender-name">详细地址：</div>
+                                    <input type="text" placeholder=" 请填写所在街道以及详细地址"
+                                           class="w-100 f13 mail-sender-input"/>
+                                </div>
+                            </div>
+                            <div class="row pt-4">
+                                <div class="col-2 offset-10">
+                                    <a href="javascript:;" class="save-address cbase f14">保存到地址薄</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pb-4">
+                            <div class="row">
+                                <div class="col-6">
+                                    <span class="f21 c333">上门取件时间</span>
+                                </div>
+                            </div>
+                            <div class="row pt-4">
+                                <div class="col-8">
+                                    <div class="f12 mail-sender-name">上门时间：</div>
+                                    <input type="text" placeholder="请选择您适合的时间"
+                                           class="w-100 f13 mail-sender-input"/>
+                                </div>
+                            </div>
+                            <div class="row pt-4">
+                                <div class="col-4 offset-4">
+                                    <p class="f14 c333 text-center">我同意
+                                        <a href="javascript:;" class="cbase f14 promise">《电子运单契约条款》</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div >
+                            <button class="order cfff f14 m-auto">下单</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ema" data-items="item"id="mai2">
+            <div class="mail mail2">
+                <div></div>
+                <a href="javascript:;" class="free">
+                    <img src="../img/mail/order-button-icon.gif"/>
+                    <span class="f16 cbase pl-1">免费预约上门取件</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="ema" data-items="item" id="mai3">
+            <div class="mail mail3">
+                <div>
+                    <div class="serve float-left">
+                        <h3 class="c333">服务支持</h3>
+                        <ul class="p-0">
+                            <li><a href="javascript:;" class="f13 cgrey">我要寄件</a></li>
+                            <li><a href="javascript:;" class="f13 cgrey">运单追踪</a></li>
+                            <li><a href="javascript:;" class="f13 cgrey">运费时效查询</a></li>
+                            <li><a href="javascript:;" class="f13 cgrey">收寄范围查询</a></li>
+                            <li><a href="javascript:;" class="f13 cgrey">服务网点查询</a></li>
+                            <li><a href="javascript:;" class="f13 cgrey">收寄标准查询</a></li>
+                            <li><a href="javascript:;" class="f13 cgrey">清关服务专区</a></li>
+                            <li><a href="javascript:;" class="f13 cgrey">更多内容查询</a></li>
+                        </ul>
+                    </div>
+                    <div class="aging float-left">
+                        <h5 class="f14 c333 fw500">运费时效查询</h5>
+                        <div class="address">
+                            <span class="f14 c333">原寄地</span>
+                            <input type="text" placeholder="请选择原寄地地区，例如：北京市"/>
+                            <a>...</a>
+                        </div>
+                        <div class="address">
+                            <span class="f14 c333">目的地</span>
+                            <input type="text" placeholder="请选择目的地地区，例如：北京市"/>
+                            <a>...</a>
+                        </div>
+                        <div class="address w-50">
+                            <span class="f14 c333">重量</span>
+                            <input type="text" value="1" class="w-50"/>
+                            <a class="pt-1">kg</a>
+                        </div>
+                        <div class="address mailtime">
+                            <span class="f14 c333">寄件时间</span>
+                            <input type="text" placeholder="现在" class="w-50"/>
+                            <a class="pt-1"></a>
+                        </div>
+                        <button class="cfff f14">查询</button>
+                    </div>
+                    <div class="calculate float-left">
+                        <p><strong>运费计算基于以下计费规则：</strong></p>
+                        <p><strong>一、 体积重量计算方法</strong></p>
+                        <p>托寄物的计费重量取体积重量与实际重量两者之间的较大值，体积重量的计算方法为：</p>
+                        <p>1、【<strong>顺丰即日/次晨/标快</strong>】</p>
+                        <p>同城、省内件以及经济区域内互寄，体积重量=长(CM)×宽(CM)×高(CM)÷12000；</p>
+                        <p>省外跨经济区域互寄，体积重量=长(CM)×宽(CM)×高(CM)÷6000；</p>
+                        <p>(经济区域包含：京津冀区域，江浙沪皖区域,，川渝区域，黑吉辽区域)</p>
+                        <p>2、【<strong>顺丰特惠</strong>】 体积重量=长(CM)×宽(CM)×高(CM)÷12000；</p>
+                        <p>3、【<strong>重货包裹/小票零担/冷运到家</strong>】 体积重量=长(CM)×宽(CM)×高(CM)÷6000；</p>
+                        <p>4、【<strong>冷运零担</strong>】 体积重量=长(CM)×宽(CM)×高(CM)÷3000；</p>
+                        <p>5、【<strong>港澳台/国际产品（服务）</strong>】 体积重量=长(CM)×宽(CM)×高(CM)÷6000</p>
+                        <p>其他产品计算方法请致电95338或咨询当地收派员。</p>
+                        <p><strong>二. 计费重量小数点进位处理方式</strong></p>
+                        <p>1、【<strong>中国大陆互寄业务</strong>】</p>
+                        <p>100KG以下，续重以0.5KG为计重单位，不足0.5kg，按0.5kg计；100KG及以上，四舍五入取整数。</p>
+                        <p>2、【<strong>港澳本地业务</strong>】</p>
+                        <p>续重以0.5KG为计重单位，不足0.5kg，按0.5kg计。</p>
+                        <p>3、【<strong>跨境业务</strong>】</p>
+                        <p>【中国大陆始发至港澳台业务】100KG以下, 续重以0.5KG为计重单位，不足0.5kg，按0.5kg计；100KG及以上，以1KG为计重单位，小数点后尾数大于零的，向上进位至下一个1KG。</p>
+                        <p>除以上流向的其他跨境业务，按以下方式处理：</p>
+                        <p>20KG以下, 续重以0.5KG为计重单位，不足0.5kg，按0.5kg计；20KG及以上，以1KG为计重单位，小数点后尾数大于零的，向上进位至下一个1KG</p>
+                        <p><strong>三. 运费计算结果处理方式</strong></p>
+                        <p>1、运费计算结果按四舍五入取整数值；</p>
+                        <p>2、不同产品起始重量各有差异，不足起重的快件将按起重计费并显示。</p>
+                        <p class="mb-4">以上计费规则可能因服务（产品）或所在地区不同而有所差异，详情致电95338或与当地收派员进行咨询。</p>
+                        <p><strong>温馨提示：</strong></p>
+                        <p><strong>始发地或目的地任一方为港澳台地区</strong><strong>：</strong></p>
+                        <p class="pl-4">1、此价格供参考。更多收费和服务详情，详情请致电中国内地客户服务热线 <strong>95338</strong>。</p>
+                        <p class="pl-4">2、港澳地区寄往中国内地的特殊包裹品项及价格请<a href="javascript:;">按此</a>查询，参考时效在顺丰标快产品基础上加时3-5天；。</p>
+                        <p class="pl-4">3、台湾地区寄往中国内地的特殊包裹品项及价格请<a href="javascript:;">按此</a>查询，参考时效在顺丰标快产品基础上加时3-5天；。</p>
+                        <p class="pl-4">4、对于约定由收件人（或第三方）付费（含运费及增值服务费）的快件，在快件签收之前，可提出对费用付款方式变更为寄方付。对于需要更改付款方式的快件，寄件人除需要支付运费外，每票需另外支付更改付款方式服务费。（<a href="javascript:;">收费标准</a>）</p>
+                        <p class="pl-4">5、如收派件地址为<span>香港地区住宅地址</span>或<a href="javascript:;">香港地区偏远地区</a>，上门收派每票另收港币（住宅附加费$20，香港偏远件$30），附加费可与运费绑定（寄付或到付），收派件时效需加0.5-1个工作日。</p>
+                        <p class="pl-4">6、台湾地区部分地区收派时效需加0.5-1工作日，可<a href="javascript:;">按此</a>查阅详情。</p>
+                        <p class="pl-4 mb-4">7、以上由香港、澳门及台湾地区寄件至中国内地、港澳台地区之运费包含燃油附加费，请<a href="javascript:;">按此</a>了解更多燃油附加费的资料。</p>
+                        <p><strong>始发地或目的地任一方为海外国家</strong><strong>：</strong></p>
+                        <p class="pl-4">1、海外进出口流向价格与时效仅参考。更多收费与服务详情，请致电大陆国际业务客服专线9533883.</p>
+                        <p class="pl-4">2、海外进出口流向运费豁免燃油附加费，但未包含清关税费、偏远地区附加费、特殊处理费等可能产生的其他费用。</p>
+                        <p class="pl-4">3、海外进出口流向时效标准天数是指工作日，不包含收件日，不包括周末和节假日。具体派送时效以目的地邮编为准。如遇偏远地区或郊区、航班延误、清关异常等情形，时效会额外增加。</p>
+
+                    </div>
+                    <a href="javascript:;" class="free float-left free2">
+                        <img src="../img/mail/order-button-icon.gif"/>
+                        <span class="f16 cbase pl-1">免费预约上门取件</span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="register" id="reg">
+        <div class="register-nav">
+            <a href="javascript:;" class="f16 login-content">扫码登录</a>
+            <a href="javascript:;" class="f16 login-content">账号登录</a>
+            <a href="javascript:;" class="f16 ml4 register-close"
+              id="close">X</a>
+        </div>
+        <div class="w100 pl5 pr5 register-content">
+            <h5 class="f13 mt4">登录后即可免验证快速下单与查件</h5>
+            <input type="text" id="uphone" name="uphone" placeholder="请输入手机号" class="register-input w100 f13 mt4"/>
+            <h6 class="cbase"></h6>
+            <input type="password" id="upwd" name="upwd" placeholder="请输入密码" class="register-input w100 f13 mt4"/>
+            <h6 class="cbase"></h6>
+            <p class="mb2"><a href="register.html">未注册？</a></p>
+            <div class="mAuto mb2">
+                <input type="checkbox" id="auto" class=""/>
+                <label for="auto" class="f13 font-weight-bold">自动登录</label>
+            </div>
+            <button class="order mAuto cfff mb2" id="login" disabled>快速登录</button>
+            <a href="javascript:;" class="mAuto f14">进入会员系统</a>
+        </div>
+    </div>
+    <footer>
+        <div class="f-top w-1280 mAuto">
+            <a href="#">
+                <img src="../img/index/to-top-red.png"/>
+            </a>
+        </div>
+        <div class="foot">
+            <div class="f-list w-1280 mAuto">
+                <div class="wul">
+                    <a href="javascript:;" class="f16">物流</a>
+                    <ul>
+                        <li><a href="javascript:;">快递服务</a></li>
+                        <li><a href="javascript:;">冷运服务</a></li>
+                        <li><a href="javascript:;">仓储服务</a></li>
+                    </ul>
+                </div>
+                <div class="jinr">
+                    <a href="javascript:;" class="f16">金融</a>
+                    <ul>
+                        <li><a href="javascript:;">财富管理</a></li>
+                        <li><a href="javascript:;">资产管理</a></li>
+                        <li><a href="javascript:;">综合支付</a></li>
+                    </ul>
+                </div>
+                <div class="shangy">
+                    <a href="javascript:;" class="f16">商业</a>
+                    <ul>
+                        <li><a href="javascript:;">顺丰优选网上商城</a></li>
+                        <li><a href="javascript:;">顺丰优选门店</a></li>
+                    </ul>
+                </div>
+                <div class="chengg">
+                    <a href="javascript:;" class="f16">成功案例</a>
+                    <ul>
+                        <li><a href="javascript:;">3C电子行业</a></li>
+                        <li><a href="javascript:;">医疗行业</a></li>
+                        <li><a href="javascript:;">生鲜行业</a></li>
+                        <li><a href="javascript:;">快消行业</a></li>
+                    </ul>
+                </div>
+                <div class="fuw">
+                    <a href="javascript:;" class="f16">服务支持</a>
+                    <ul>
+                        <li><a href="javascript:;">我要寄件</a></li>
+                        <li><a href="javascript:;">运单追踪</a></li>
+                        <li><a href="javascript:;">运费时效查询</a></li>
+                        <li><a href="javascript:;">收费范围查询</a></li>
+                        <li><a href="javascript:;">服务网点查询</a></li>
+                        <li><a href="javascript:;">收寄标准查询</a></li>
+                        <li><a href="javascript:;">更多内容查询</a></li>
+                    </ul>
+                </div>
+                <div class="kongg">
+                    <a href="javascript:;" class="f16">顺丰控股投资者关系</a>
+                    <ul>
+                        <li><a href="javascript:;">公司治理</a></li>
+                        <li><a href="javascript:;">公司公告</a></li>
+                        <li><a href="javascript:;">定期报告</a></li>
+                        <li><a href="javascript:;">投资者联络</a></li>
+                        <li><a href="javascript:;">投资者关系日历</a></li>
+                    </ul>
+                </div>
+                <div class="guany">
+                    <a href="javascript:;" class="f16">关于我们</a>
+                    <ul>
+                        <li><a href="javascript:;">关于顺丰</a></li>
+                        <li><a href="javascript:;">新闻资讯</a></li>
+                        <li><a href="javascript:;">服务公告</a></li>
+                        <li><a href="javascript:;">促销活动</a></li>
+                        <li><a href="javascript:;">会员权益</a></li>
+                        <li><a href="javascript:;">人才招聘</a></li>
+                    </ul>
+                </div>
+                <div class="lianx">
+                    <a href="javascript:;" class="f16">联系我们</a>
+                    <ul>
+                        <li><a href="javascript:;">客服专线95338</a></li>
+                        <li><a href="javascript:;">客户服务热线</a></li>
+                        <li><a href="javascript:;">合作咨询</a></li>
+                    </ul>
+                </div>
+                <div class="mas">
+                    <a href="javascript:;" class="f16">马上联系我们</a>
+                    <!--<div class="wechat">-->
+                        <!--<img src="../img/index/sf-code-img.jpg.png"/>-->
+                        <!--<span></span>-->
+                    <!--</div>-->
+                    <div class="mas-content">
+                        <a href="javascript:;" class="mas1"></a>
+                        <a href="javascript:;" class="wh">
+                            <div class="wechat">
+                                <img src="../img/index/sf-code-img.jpg.png"/>
+                                <span></span>
+                            </div>
+                            <div class="mas2"></div>
+                        </a>
+                        <a href="javascript:;" class="mas3"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="f-2 mb2">
+                <ul class="w-1280">
+                    <li><a href="javascript:;"><div class="f-2-1"></div></a></li>
+                    <li><a href="javascript:;"><div class="f-2-2"></div></a></li>
+                    <li><a href="javascript:;"><div class="f-2-3"></div></a></li>
+                    <li><a href="javascript:;"><div class="f-2-4"></div></a></li>
+                    <li><a href="javascript:;"><div class="f-2-5"></div></a></li>
+                    <li><a href="javascript:;"><div class="f-2-6"></div></a></li>
+                    <li><a href="javascript:;"><div class="f-2-7"></div></a></li>
+                    <li><a href="javascript:;"><div class="f-2-8"></div></a></li>
+                    <li><a href="javascript:;"><div class="f-2-9"></div></a></li>
+                    <li><a href="javascript:;"><div class="f-2-10"></div></a></li>
+                </ul>
+            </div>
+            <div class="f-bottom">
+                <div class="fb-d w-1280 mAuto">
+                    <ul>
+                        <li><a href="javascript:;">使用条款</a></li>
+                        <li><a href="javascript:;">服务网络</a></li>
+                        <li><a href="javascript:;">集团采购</a></li>
+                        <li><a href="javascript:;">丰桥平台</a></li>
+                        <li><a href="javascript:;">隐私政策</a></li>
+                    </ul>
+                    <div>
+                        <a href="javascript:;" class="pt2">粤&nbsp;&nbsp;ICP&nbsp;&nbsp;备08034243号</a>
+                        <a href="javascript:;" class="pt2">© 2017&nbsp;&nbsp;顺丰速运&nbsp;&nbsp;版权所有&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                        <a href="javascript:;" class="h-39 pr2 pt1"><img class="h100" src="../img/index/govIcon-1.gif"/></a>
+                        <a href="javascript:;" class="h-39 pr2 pt1"><img class="h100" src="../img/index/security_site_2.png"/></a>
+                        <a href="javascript:;" class="h-39 pr2 pt1"><img class="h100" src="../img/index/security_site_1.png"/></a>
+                        <a href="javascript:;" class="h-39 pr2 pt1">
+                            <img class="h100" src="../img/index/officialbrand_small_h_img-1.jpg-sn=c6cc6a.png"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="w-1280 mAuto h24 mt1">
+                    <a class="fb-a" href="index.html">
+                        
+                            <img src="../img/index/security_site_3.png"/>
+                            粤公网安备 44030502003091号
+                        
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+    <script src="../js/header.js"></script>
+    <script>
+        $("[data-items=item]").first().css(/*"visibility","visible"*/"display","block");
+        $("[data-options=option]").click(function(){
+            var $a=$(this);
+            $a.addClass("hover").parent().siblings().children().removeClass("hover");
+            var $id=$a.attr("data-target");
+            console.log($id);
+            $($id).css(/*"visibility","visible"*/"display","block").siblings("[data-items=item]").css(/*"visibility","hidden"*/"display","none");
+        });
+    </script>
+</body>
+</html>

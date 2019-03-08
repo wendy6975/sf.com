@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: #fff;
+    width: 100%;
+    height: 70px;
+    padding:  0 100px;
+    border-bottom: 2px solid #dc1e32;
+}
+header>h1{
+    width: 1280px;
+    height: 70px;
+    line-height: 70px;
+    margin: auto;
+    padding-left: 60px;
+    background: url("../img/index/sf.png") no-repeat 0% 50%;
+}
+#register{
+    width: 100%;
+    min-width: 1280px;
+}
+#register>div{
+    width: 600px;
+    height:550px;
+    /* border:2px solid rgba(51, 51, 51, .1); */
+    margin: auto;
+    padding: 25px 55px 35px 55px;
+    border-radius: 4px;
+    box-shadow: 4px 4px 30px 1px rgba(220,30,50,.3);
+}
+#register>div h1{
+    text-align: center;
+    font-weight: 400;
+}
+#register>div input{
+    padding-left: 30px;
+    width: 100%;
+    height: 34px;
+    background:transparent url(../img/index/header-phoneicon.png) no-repeat 1% -21px;
+    border: 1px solid rgba(220, 30, 50, .3);
+    outline: none;
+    border-radius: 2px; 
+    font-size: 16px;
+}
+#register .Lphone{
+    background-position-y: 7px;
+}
+#register .Lemail{
+    background-position-y: -255px;
+}
+#register .Lpwd{
+    background-position-y: -50px;
+}
+#register>div h6{
+    height: 30px;
+    line-height: 30px;
+    padding-left:30px;
+    color: #dc1e32;
+    margin: 0;
+    font-size: 14px;
+}
+#register>div>button{
+    width: 150px;
+    height: 50px;
+    background: #999;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    margin-left: 175px;
+}
+#register>div>a{
+    display: block;
+    margin-top:20px;
+    text-align: center;
+    text-decoration: none; 
+    color: #333;
+}
+#register>div>a:hover{
+    color: #dc1e32;
+}

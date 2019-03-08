@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+.f-20{
+    font-size: 20px;
+}
+.f-16{
+    font-size: 16px;
+}
+.w-1280{
+    width: 1280px;
+}
+header{
+    position:relative;
+}
+.country,.login,header>ul,header div{
+    position: absolute;
+}
+a{
+    color:#333;
+}
+a:hover{
+    text-decoration: none;
+    color:#dc1e32;
+}
+ul{
+    list-style: none;
+}
+header{
+    width: 80%;
+   min-width:1280px ;
+    height: 70px;
+    line-height: 70px;
+    margin: auto;
+    color: #333;
+}
+.top{
+    width:44px;
+    height:70px;
+}
+header>ul{
+    width: 624px;
+    height: 70px;
+    float: left;
+    list-style: none;
+    margin: 0;
+    left:70px;
+}
+header>ul>li {
+    float:left;
+    padding:0 10px;
+}
+header>ul>li>a{
+    display: block;
+    height: 70px;
+    border-bottom:2px solid transparent;
+}
+header>ul>li>a:hover{
+    border-bottom:2px solid #dc1e32;
+}
+/* header>ul>li:hover #Hmail,header>ul>li:hover #Hbusiness,header>ul>li:hover #Hsuccess,header>ul>li:hover #Hserve,header>ul>li:hover #Hinvest,header>ul>li:hover #Hus{
+    display: block;
+} */
+.login div{
+    width: 20px;
+    height: 20px;
+    background: url(../img/index/header-phoneicon.png  )no-repeat 0 6%;
+    margin-top: 25px;
+}
+.login a{
+    display: block;
+    margin-left:20px;
+}
+.login{
+    right:80px;
+}
+.country{
+    width: 40px;
+    height: 19px;
+    top:25px;
+    right: 0;
+    background: url(../img/index/header-phoneicon.png)no-repeat 0 19%;
+}
+#Hmail{
+    width: 1173px;
+    height: 360px;
+    background: #f1f1f1;
+    padding: 0;
+    left:33px;
+    display: none;
+}
+#Hmail>div{
+    width: 1035px;
+    height: 360px;
+    background: #ffffff;
+    float: left;
+    
+    padding: 25px;
+}
+#Hmail>ul{
+    width: 136px;
+    height: 310px;
+    float: right;
+    padding:25px;
+}
+#Hmail>ul>li{
+    text-align: center;
+    line-height: 20px;
+    margin-bottom: 12px;
+
+}
+#Hmail>ul>li:first-child>a,#Hmail>ul>li:last-child>a{
+    display: block;
+    padding: 6px 15px;
+    background: #dc1e32;
+    border-radius: 3px;
+}
+#Hmail>ul>li:first-child>a:hover,#Hmail>ul>li:last-child>a:hover{
+    color: #ffffff
+}
+.Hexpress{
+    width: 612px;
+    height: 308px;
+    border-right:2px solid #f1f1f1;
+}
+
+#Hmail>div>.Hexpress>p{
+    background-position-y:-11%;
+    
+}
+#Hmail>div>div>p{
+    height: 28px;
+    line-height: 28px;
+    font-weight: 700;
+    background: url(../img/index/header-wlicon.png) no-repeat;
+    padding-left: 40px;
+   margin-bottom: 5px;
+}
+#Hmail>div>div>ul{
+    float: left;
+    margin:0 11px; 
+}
+#Hmail>div>div>ul>li{
+    line-height: 20px;
+    padding-bottom: 8px;
+}
+#Hmail>div>div>ul>li>p{
+    height: 20px;
+    font-weight: 700;
+    margin: 0;
+}
+.Hcold{
+    width: 212px;
+    height: 308px;    
+    right: 148px;
+    padding: 0 12px;
+    border-right:2px solid #f1f1f1;
+}
+#Hmail>div>.Hcold>p{
+    background-position-y:29%;  
+}
+.Hstorage{
+    width: 98px;
+    height: 308px;
+    right: 25px;
+    padding: 0 12px;
+}
+#Hmail>div>.Hstorage>p{
+    padding-left:30px; 
+    background-position-y:68%;  
+}
+#Hmail>div>.Hstorage>ul{
+    margin: auto;
+}
+header>ul li>div ul li{
+    height: 25px;
+    line-height: 25px;
+}
+header>ul li>div{
+    background: #fff;
+    border-top: 2px solid #f1f1f1;
+    padding: 25px;
+}
+#Hbusiness{
+    width: 197px;
+    height: 132px;
+    left: 130px;
+    display: none;
+}
+#Hbusiness>p{
+    height: 25px;
+    line-height: 25px;
+    background: url("../img/index/header-syicon.png") no-repeat 0 2px;
+    padding-left: 35px;
+    margin-bottom: 12px;
+}
+#Hbusiness>p:last-child{
+    background-position-y:-25px ;
+}
+#Hsuccess{
+    width: 123px;
+    height: 164px;
+    left: 175px;
+    display: none;
+}
+#Hserve{
+    width: 260px;
+    height: 192px;
+    left: 235px;
+    display: none;
+}
+#Hserve>ul{
+    float: left;
+    padding: 0 17px;
+}
+#Hserve>ul:last-child{
+    border-left: 2px solid #f1f1f1;
+}
+#Hinvest{
+    width: 148px;
+    height: 192px;
+    left: 342px;
+    display: none;
+}
+#Hus{
+    width: 110px;
+    height: 248px;
+    
+    left: 475px;
+    display: none;
+}
+#Hindex,#Hmoney{
+    padding: 0;
+    border: 0;
+}
+

@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+footer a{
+    color:#d1d1d1;
+}
+
+footer a:hover{
+    color:#fff;
+    /* text-decoration: none; */
+}
+.w-1280{
+    width: 1280px;
+}
+footer{
+    width: 100%;
+    min-width:1280px;
+    height: 600px;
+    padding-top: 30px;
+    background: transparent;
+}
+.f-top{
+    height: 60px;
+}
+.f-top a{
+    display: block;
+    width: 48px;
+    float: right;
+
+}
+.foot{
+    height: 540px;
+    background: #000;
+    border-top:8px solid #dc1e32;
+    padding-top: 50px;
+}
+
+.f-list{
+    height: 235px;
+    display: flex;
+    justify-content: space-between;
+}
+.f-list div{
+    height: 235px;
+    padding-right: 6px;
+}
+.f-list div>a{
+    color: #fff;
+    cursor: default;
+}
+.f-list div ul{
+    list-style: none;
+    margin-top: 10px;
+}
+.f-list div ul li{
+    margin-bottom: 8px;
+}
+.wul{
+    width: 78px;
+}
+.jinr{
+    width: 79px;
+}
+.shangy{
+    width: 155px;
+}
+.chengg{
+    width: 103px;
+}
+.fuw{
+    width: 117px;
+}
+.kongg{
+    width: 200px;
+}
+.guany{
+    width: 90px;
+}
+.lianx{
+    width: 138px;
+    border-right: 1px solid #333;
+}
+.mas{
+    width: 269px;
+    text-align: center;
+    position: relative;
+}
+.mas .wechat{
+    width:185px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: -205px;
+    left: -60px;
+    visibility: hidden;
+}
+.wechat img{
+    width: 100%;
+    height: 185px;
+    /*position: absolute;*/
+    /*top: 0px;*/
+    /*right:0px;*/
+}
+.wechat span{
+    position: absolute;
+    height: 0;
+    width: 0;
+    border: 15px solid transparent;
+    border-top: 15px solid #fff;
+    border-bottom: none;
+    bottom: 0;
+    left: 76px;
+}
+.mas-content{
+    width: 263px;
+    height: 58px;
+    margin-top: 30px;
+    /*display: flex;*/
+    /*justify-content: space-around;*/
+    position: relative;
+}
+.mas-content .wh{
+    display: block;
+    /*width: 185px;*/
+    /*height: 258px;*/
+    left:100px;
+    
+}
+.mas-content a{
+    display: block;
+    width: 58px;
+    height: 58px;
+    margin: 0;
+    position: absolute;
+}
+.mas1{
+    left: 20px;
+    background: url(../img/index/label-top-r-btn.png) no-repeat 0 50%;
+}
+.wh .mas2{
+    width: 58px;
+    height: 58px;
+    /*margin-top: 200px;*/
+    /*margin-left: 62px;*/
+    background: url(../img/index/label-top-r-btn.png) no-repeat 50% 50%;
+}
+
+.mas3{
+    right:20px;
+    background: url(../img/index/label-top-r-btn.png) no-repeat 100% 50%;
+}
+.mas1:hover{
+    background: url(../img/index/label-top-r-btn-b.png) no-repeat 0 50%;
+}
+.mas2:hover{
+    background: url(../img/index/label-top-r-btn-b.png) no-repeat 50% 50%;
+}
+.wh:hover .wechat{
+     visibility: visible;
+ }
+.mas3:hover{
+    background: url(../img/index/label-top-r-btn-b.png) no-repeat 100% 50%;
+}
+.f-2{
+    width: 100%;
+    height: 73px;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    margin-top: 60px;
+}
+.f-2 ul{
+    height: 47px;
+    margin: 13px auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.f-2 ul li div{
+    width: 127px;
+    height: 47px;
+    border-right: 1px solid #333;
+    background:url(../img/index/label-center-ul-btn-h.png) no-repeat 0 50%;
+}
+.f-2 ul .f-2-2{
+    background-position-x:13% ;
+}
+.f-2 ul .f-2-3{
+    background-position-x:23% ;
+}
+.f-2 ul .f-2-4{
+    background:url(../img/index/label-center-ul-btn-h4.png) no-repeat 0 50%;
+}
+.f-2 ul .f-2-5{
+    background-position-x:45% ;
+}
+.f-2 ul .f-2-6{
+    background-position-x:56% ;
+}
+.f-2 ul .f-2-7{
+    background-position-x:67% ;
+}
+.f-2 ul .f-2-8{
+    background-position-x:78% ;
+}
+.f-2 ul .f-2-9{
+    background-position-x:89% ;
+}
+.f-2 ul .f-2-10{
+    background-position-x:100% ;
+    border: 0;
+}
+.f-2 ul li a:hover div{
+    background:url(../img/index/label-center-ul-btn.png) no-repeat 0 50%;
+}
+.f-2 ul li a:hover .f-2-2{
+    background-position-x:13% ;
+}
+.f-2 ul li a:hover .f-2-3{
+    background-position-x:23% ;
+}
+.f-2 ul li a:hover .f-2-4{
+    background:url(../img/index/label-center-ul-btn4.png) no-repeat 0 50%;
+}
+.f-2 ul li a:hover .f-2-5{
+    background-position-x:45% ;
+}
+.f-2 ul li a:hover .f-2-6{
+    background-position-x:56% ;
+}
+.f-2 ul li a:hover .f-2-7{
+    background-position-x:67% ;
+}
+.f-2 ul li a:hover .f-2-8{
+    background-position-x:78% ;
+}
+.f-2 ul li a:hover .f-2-9{
+    background-position-x:89% ;
+}
+.f-2 ul li a:hover .f-2-10{
+    background-position-x:100% ;
+    border: 0;
+}
+.f-bottom .fb-d{
+    height: 40px;
+}
+.fb-d ul{
+    height: 40px;
+    float: left;
+    padding: 5px 0;
+    margin: 0;
+}
+.fb-d li{
+    list-style: none;
+    float: left;
+    padding:0 10px;
+    border-right: 1px solid #fff;
+}
+.fb-d div a{
+    display:block;
+    float: right;
+}
+
+.h-39{
+    height: 39px;
+}
+.h24{
+    height: 24px;
+}
+.fb-a{
+    display: block;
+    width:228px;
+    float:right;
+}
